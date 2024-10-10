@@ -32,6 +32,33 @@ require("lazy").setup({
             })
         end,
     },
+    {
+        "neanias/everforest-nvim",
+        priority = 1000,
+        config = function ()
+            require("everforest").setup({
+                options = {
+                    background = "hard",
+                },
+            })
+        end
+    },
+    {
+        'AlexvZyl/nordic.nvim',
+        lazy = false,
+        priority = 1000,
+        config = function()
+            require('nordic').setup({
+                bold_keywords = true,
+            })
+        end
+    },
+    {
+        "rebelot/kanagawa.nvim",
+        config = function ()
+            require("kanagawa").setup()
+        end
+    },
 
 	-- TELESCOPE
 	{
