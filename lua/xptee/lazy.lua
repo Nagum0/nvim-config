@@ -65,6 +65,29 @@ require("lazy").setup({
         priority = 1000,
         config = function() end,
     },
+    {
+        "catppuccin/nvim",
+        name = "catppuccin",
+        priority = 1000,
+        config = function()
+            require("catppuccin").setup({
+                flavour = "macchiato",
+                background = {
+                    light = "latte",
+                    dark = "mocha",
+                },
+                term_colors = true,
+                transparent_background = true,
+                styles = {
+                    comments = { "italic" },
+                    keywords = { "bold" },
+                },
+                integrations = {
+                    treesitter = true,
+                },
+            })
+        end
+    },
 
 	-- TELESCOPE
 	{
