@@ -59,6 +59,12 @@ require("lazy").setup({
             require("kanagawa").setup()
         end
     },
+    {
+        'sainnhe/gruvbox-material',
+        lazy = false,
+        priority = 1000,
+        config = function() end,
+    },
 
 	-- TELESCOPE
 	{
@@ -80,6 +86,9 @@ require("lazy").setup({
 			local configs = require("nvim-treesitter.configs")
 			configs.setup({
 				ensure_installed = { "c", "lua", "rust", "go" },
+                highlight = {
+                    enable = true,
+                },
 			})
 		end,
 	},
