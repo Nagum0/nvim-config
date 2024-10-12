@@ -88,6 +88,20 @@ require("lazy").setup({
             })
         end
     },
+    {
+        "EdenEast/nightfox.nvim",
+        config = function()
+            require("nightfox").setup({
+                options = {
+                    transparent = true,
+                },
+                styles = {
+                    keywords = "bold",
+                },
+            })
+        end
+    },
+
 
 	-- TELESCOPE
 	{
