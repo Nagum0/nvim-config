@@ -229,6 +229,10 @@ require("lazy").setup({
                     -- Mapping to restart lsp if necessary
                     opts.desc = "Restart LSP"
                     vim.keymap.set("n", "<leader>rs", ":LspRestart<CR>", opts)
+
+                    -- Go to implementation
+                    opts.desc = "Go to implementation"
+                    vim.keymap.set("n", "<leader>gi", vim.lsp.buf.implementation, opts);
                 end,
             })
 
