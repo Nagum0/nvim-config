@@ -14,3 +14,7 @@ vim.keymap.set("n", "<leader>=w", "<C-w>10<<Esc>", { noremap = true, silent = tr
 -- SCROLL HALF PAGES
 vim.keymap.set("n", "<C-q>", "<C-u>", { noremap = true, silent = true })
 vim.keymap.set("n", "<C-s>", "<C-d>", { noremap = true, silent = true })
+
+-- SCROLL UP BY A LINE
+vim.keymap.set("n", "<C-Up>", "<C-y>", { noremap = true, silent = true })
+vim.keymap.set("n", "<C-Down>", "<C-e>", { noremap = true, silent = true })

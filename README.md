@@ -11,3 +11,4 @@
   - Mason LSP config: (https://github.com/williamboman/mason-lspconfig.nvim)
   - LSP config: nvim-lspconfig (https://github.com/neovim/nvim-lspconfig)
   - LSP Autocompletion: cmp-nvim-lsp (https://github.com/hrsh7th/cmp-nvim-lsp)
+- Comments ('numToStr/Comment.nvim')
