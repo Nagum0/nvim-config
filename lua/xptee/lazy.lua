@@ -71,7 +71,7 @@ require("lazy").setup({
         priority = 1000,
         config = function()
             require("catppuccin").setup({
-                flavour = "macchiato",
+                flavour = "mocha",
                 background = {
                     light = "latte",
                     dark = "mocha",
@@ -249,4 +249,12 @@ require("lazy").setup({
             })
         end,
     },
+
+    -- COMMENTS
+    {
+        'numToStr/Comment.nvim',
+        opts = {
+            -- add any options here
+        }
+    }
 })
