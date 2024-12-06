@@ -1,7 +1,7 @@
 # NVIM CONFIG
 
 - Package manager: lazy.nvim (https://github.com/folke/lazy.nvim)
-- Theme: VsCode theme (https://github.com/Mofiqul/vscode.nvim)
+- Theme: Catppuccin (https://github.com/Mofiqul/vscode.nvim)
 - Statusline: Lualine (https://github.com/nvim-lualine/lualine.nvim)
 - Fuzzy finder: Telescope (https://github.com/nvim-telescope/telescope.nvim)
 - Autocompletion: nvim-cmp (https://github.com/hrsh7th/nvim-cmp)
@@ -12,3 +12,4 @@
   - LSP config: nvim-lspconfig (https://github.com/neovim/nvim-lspconfig)
   - LSP Autocompletion: cmp-nvim-lsp (https://github.com/hrsh7th/cmp-nvim-lsp)
 - Comments ('numToStr/Comment.nvim')
+- NvimTree (https://github.com/nvim-tree/nvim-tree.lua)

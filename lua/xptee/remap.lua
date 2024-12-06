@@ -18,3 +18,7 @@ vim.keymap.set("n", "<C-s>", "<C-d>", { noremap = true, silent = true })
 -- SCROLL UP BY A LINE
 vim.keymap.set("n", "<C-Up>", "<C-y>", { noremap = true, silent = true })
 vim.keymap.set("n", "<C-Down>", "<C-e>", { noremap = true, silent = true })
+
+-- NVIMTREE REMAPS
+vim.keymap.set("n", "<C-b>", ":NvimTreeToggle<CR>", { noremap = true, silent = true })
+
