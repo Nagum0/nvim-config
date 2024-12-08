@@ -1,0 +1,219 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "id": "User.copy.644BA8F2",
+            "keys": "ctrl+c"
+        },
+        {
+            "command": "paste",
+            "id": "User.paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": "find",
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "id": "User.splitPane.A6751878",
+            "keys": "alt+shift+d"
+        }
+    ],
+    "autoHideWindow": false,
+    "confirmCloseAllTabs": true,
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "experimental.detectURLs": true,
+    "initialCols": 135,
+    "initialRows": 35,
+    "launchMode": "default",
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": {},
+        "list": 
+        [
+            {
+                "backgroundImage": "C:\\Users\\xptee\\Pictures\\Wallpapers\\flatppuccin_4k_macchiato.png",
+                "backgroundImageOpacity": 0.1,
+                "backgroundImageStretchMode": "uniform",
+                "colorScheme": "Catppuccin Mocha",
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "cursorShape": "filledBox",
+                "font": 
+                {
+                    "face": "CaskaydiaCove Nerd Font"
+                },
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt"
+            },
+            {
+                "backgroundImage": "C:\\Users\\xptee\\Pictures\\Wallpapers\\flatppuccin_4k_macchiato.png",
+                "backgroundImageOpacity": 0.1,
+                "backgroundImageStretchMode": "fill",
+                "bellStyle": "none",
+                "colorScheme": "Catppuccin Mocha",
+                "experimental.retroTerminalEffect": false,
+                "font": 
+                {
+                    "face": "CaskaydiaCove Nerd Font",
+                    "size": 12
+                },
+                "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
+                "hidden": false,
+                "name": "Ubuntu",
+                "opacity": 100,
+                "scrollbarState": "hidden",
+                "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc",
+                "useAcrylic": false
+            }
+        ]
+    },
+    "schemes": 
+    [
+        {
+            "background": "#0E1019",
+            "black": "#232323",
+            "blue": "#008DF8",
+            "brightBlack": "#444444",
+            "brightBlue": "#0092FF",
+            "brightCyan": "#67FFF0",
+            "brightGreen": "#FF2740",
+            "brightPurple": "#9A5FEB",
+            "brightRed": "#FF2740",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFD242",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#00D8EB",
+            "foreground": "#FFFFFF",
+            "green": "#1DEC28",
+            "name": "Argonaut",
+            "purple": "#6D43A6",
+            "red": "#FF000F",
+            "selectionBackground": "#FFFFFF",
+            "white": "#FFFFFF",
+            "yellow": "#FFB900"
+        },
+        {
+            "background": "#101116",
+            "black": "#101116",
+            "blue": "#00B0FF",
+            "brightBlack": "#686868",
+            "brightBlue": "#6871FF",
+            "brightCyan": "#60FDFF",
+            "brightGreen": "#5FFA68",
+            "brightPurple": "#D682EC",
+            "brightRed": "#FF6E67",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFFC67",
+            "cursorColor": "#76FF9F",
+            "cyan": "#76C1FF",
+            "foreground": "#00A2FF",
+            "green": "#00FF9C",
+            "name": "Blue Matrix",
+            "purple": "#D57BFF",
+            "red": "#FF5680",
+            "selectionBackground": "#C1DEFF",
+            "white": "#C7C7C7",
+            "yellow": "#FFFC58"
+        },
+        {
+            "background": "#1C1C1C",
+            "black": "#232323",
+            "blue": "#008DF8",
+            "brightBlack": "#444444",
+            "brightBlue": "#0092FF",
+            "brightCyan": "#67FFF0",
+            "brightGreen": "#FF2740",
+            "brightPurple": "#9A5FEB",
+            "brightRed": "#FF2740",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFD242",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#00D8EB",
+            "foreground": "#FFFFFF",
+            "green": "#1DEC28",
+            "name": "Carbonfox",
+            "purple": "#6D43A6",
+            "red": "#FF000F",
+            "selectionBackground": "#FFFFFF",
+            "white": "#FFFFFF",
+            "yellow": "#FFB900"
+        },
+        {
+            "background": "#1E1E2E",
+            "black": "#45475A",
+            "blue": "#89B4FA",
+            "brightBlack": "#585B70",
+            "brightBlue": "#89B4FA",
+            "brightCyan": "#94E2D5",
+            "brightGreen": "#A6E3A1",
+            "brightPurple": "#F5C2E7",
+            "brightRed": "#F38BA8",
+            "brightWhite": "#A6ADC8",
+            "brightYellow": "#F9E2AF",
+            "cursorColor": "#F5E0DC",
+            "cyan": "#94E2D5",
+            "foreground": "#CDD6F4",
+            "green": "#A6E3A1",
+            "name": "Catppuccin Mocha",
+            "purple": "#F5C2E7",
+            "red": "#F38BA8",
+            "selectionBackground": "#585B70",
+            "white": "#BAC2DE",
+            "yellow": "#F9E2AF"
+        },
+        {
+            "background": "#181818",
+            "black": "#0C0C0C",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#91968F",
+            "brightCyan": "#61D6D6",
+            "brightGreen": "#FAF858",
+            "brightPurple": "#B4009E",
+            "brightRed": "#E74856",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#F9F1A5",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3A96DD",
+            "foreground": "#FFFFFF",
+            "green": "#E3DE5E",
+            "name": "Color Scheme 11",
+            "purple": "#881798",
+            "red": "#C50F1F",
+            "selectionBackground": "#FFFFFF",
+            "white": "#CCCCCC",
+            "yellow": "#C19C00"
+        }
+    ],
+    "themes": [],
+    "useAcrylicInTabRow": true
+}

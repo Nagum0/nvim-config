@@ -1,5 +1,8 @@
 # NVIM CONFIG
 
+- settings.json: The terminal settings for Windows Terminal
+- wallpaper.png: My current Windows Terminal background image
+
 - Package manager: lazy.nvim (https://github.com/folke/lazy.nvim)
 - Theme: Catppuccin (https://github.com/Mofiqul/vscode.nvim)
 - Statusline: Lualine (https://github.com/nvim-lualine/lualine.nvim)
