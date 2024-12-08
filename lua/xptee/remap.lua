@@ -21,4 +21,3 @@ vim.keymap.set("n", "<C-Down>", "<C-e>", { noremap = true, silent = true })
 
 -- NVIMTREE REMAPS
 vim.keymap.set("n", "<C-b>", ":NvimTreeToggle<CR>", { noremap = true, silent = true })
-
