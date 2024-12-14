@@ -169,6 +169,9 @@ require("lazy").setup({
                 mapping = cmp.mapping.preset.insert({
                     -- Confirm mapping
                     ["<CR>"] = cmp.mapping.confirm({ select = false }),
+                    ['<C-o>'] = cmp.mapping.select_next_item({ behavior = cmp.SelectBehavior.Insert }),
+                    ['<C-l>'] = cmp.mapping.select_prev_item({ behavior = cmp.SelectBehavior.Insert }),
+
                 }),
                 snippet = { -- configure how nvim-cmp interacts with snippet engine
                     expand = function(args)
