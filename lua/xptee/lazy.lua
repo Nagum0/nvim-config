@@ -274,6 +274,9 @@ require("lazy").setup({
                 view = {
                     side = "right",
                 },
+                filters = {
+                    git_ignored = false,
+                },
             }
         end,
     }
