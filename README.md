@@ -4,7 +4,7 @@
 - wallpaper.png: My current Windows Terminal background image
 
 - Package manager: lazy.nvim (https://github.com/folke/lazy.nvim)
-- Theme: Catppuccin (https://github.com/Mofiqul/vscode.nvim)
+- Theme: There are a couple of themes installed pick whatever you want or add a new one.
 - Statusline: Lualine (https://github.com/nvim-lualine/lualine.nvim)
 - Fuzzy finder: Telescope (https://github.com/nvim-telescope/telescope.nvim)
 - Autocompletion: nvim-cmp (https://github.com/hrsh7th/nvim-cmp)
@@ -16,3 +16,4 @@
   - LSP Autocompletion: cmp-nvim-lsp (https://github.com/hrsh7th/cmp-nvim-lsp)
 - Comments (https://github.com/numToStr/Comment.nvim)
 - NvimTree (https://github.com/nvim-tree/nvim-tree.lua)
+- Bufferline (https://github.com/akinsho/bufferline.nvim)

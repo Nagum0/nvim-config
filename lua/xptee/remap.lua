@@ -32,3 +32,7 @@ vim.keymap.set("v", "o", "k", opts)
 vim.keymap.set("v", "l", "j", opts)
 vim.keymap.set("v", "k", "h", opts)
 vim.keymap.set("v", ";", "l", opts)
+
+-- BUFFERLINE KEYMAPS
+vim.keymap.set("n", "<leader>bl", ":BufferLinePick<CR>", opts)
+vim.keymap.set("n", "<leader>cl", ":BufferLinePickClose<CR>", opts)

@@ -101,7 +101,20 @@ require("lazy").setup({
             })
         end
     },
-
+    {
+        "rose-pine/neovim",
+        name = "rose-pine",
+        config = function()
+            require("rose-pine").setup({
+                variant = "moon",
+                styles = {
+                    transparency = true,
+                    italic = false,
+                    bold = true,
+                },
+            })
+        end
+    },
 
 	-- TELESCOPE
 	{
@@ -279,5 +292,25 @@ require("lazy").setup({
                 },
             }
         end,
-    }
+    },
+
+    -- BUFFERLINE
+    {
+        'akinsho/bufferline.nvim',
+        version = "*",
+        dependencies = 'nvim-tree/nvim-web-devicons',
+        config = function()
+            require("bufferline").setup({
+                options = {
+                    mode = "buffers",
+                    offsets = {
+                        filetype = "NvimTree",
+                        text = "File Explorer",
+                        highlight = "Directory",
+                        separator = true,
+                    },
+                }
+            })
+        end,
+    },
 })
