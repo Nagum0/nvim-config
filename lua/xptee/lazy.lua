@@ -115,6 +115,21 @@ require("lazy").setup({
             })
         end
     },
+    -- TokyoNight BG color: 16161e
+    {
+        "folke/tokyonight.nvim",
+        lazy = false,
+        priority = 1000,
+        config = function ()
+            require("tokyonight").setup({
+                transparent = true,
+                styles = {
+                    sidebars = "transparent",
+                    floats = "transparent",
+                }
+            })
+        end,
+    },
 
 	-- TELESCOPE
 	{
