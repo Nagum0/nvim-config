@@ -277,9 +277,22 @@ require("lazy").setup({
                         capabilities = capabilities,
                     })
                 end,
-            })
-        end,
-    },
+                ["pylsp"] = function ()
+                    local pylsp = require("lspconfig")["pylsp"]
+                    pylsp.setup({
+                        settings = {
+                            pylsp = {
+                                plugins = {
+                                    pycodestyle = {
+                                        ignore = { "W291", "W293" } -- Ignore trailing whitespace warnings
+                                    }
+                                }
+                            }
+                        }
+                    })                end,
+                })
+            end,
+        },
 
     -- COMMENTS
     {
