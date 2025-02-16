@@ -284,7 +284,7 @@ require("lazy").setup({
                             pylsp = {
                                 plugins = {
                                     pycodestyle = {
-                                        ignore = { "W291", "W293" } -- Ignore trailing whitespace warnings
+                                        ignore = { "W291", "W293", "E302" }
                                     }
                                 }
                             }
