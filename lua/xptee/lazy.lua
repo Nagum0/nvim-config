@@ -284,7 +284,7 @@ require("lazy").setup({
                             pylsp = {
                                 plugins = {
                                     pycodestyle = {
-                                        ignore = { "W291", "W293", "E302", "E305", "E501" }
+                                        ignore = { "W291", "W293", "E302", "E305", "E501", "W191" }
                                     }
                                 }
                             }
