@@ -337,7 +337,7 @@ require("lazy").setup({
                         highlight = "Directory",
                         separator = true,
                     },
-                }
+                },
             })
         end,
     },
