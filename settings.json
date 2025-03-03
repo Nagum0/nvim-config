@@ -31,7 +31,11 @@
             },
             "id": "User.splitPane.A6751878",
             "keys": "alt+shift+d"
-        }
+        },
+        { "keys": "alt+1", "command": { "action": "newTab", "profile": "Pwsh" } },
+        { "keys": "alt+2", "command": { "action": "newTab", "profile": "Ubuntu" } },
+        { "keys": "alt+3", "command": { "action": "newTab", "profile": "Puwush" } },
+        { "keys": "alt+4", "command": { "action": "newTab", "profile": "UwUntu" } }
     ],
     "autoHideWindow": false,
     "confirmCloseAllTabs": true,
@@ -54,37 +58,33 @@
         "list": 
         [
             {
-                "backgroundImage": "C:\\Users\\xptee\\Pictures\\Wallpapers\\flatppuccin_4k_macchiato.png",
+                "backgroundImage": "C:\\Users\\xptee\\Pictures\\Wallpapers\\Wallpapers\\nazuna2.png",
                 "backgroundImageOpacity": 0.1,
                 "backgroundImageStretchMode": "uniform",
-                "colorScheme": "Catppuccin Mocha",
+                "colorScheme": "Campbell",
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
                 "cursorShape": "filledBox",
                 "font": 
                 {
-                    "face": "CaskaydiaCove Nerd Font"
+                    "face": "FiraCode Nerd Font",
+                    "size": 11
                 },
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
-                "name": "Windows PowerShell"
+                "name": "Pwsh",
+                "tabTitle": "Pwsh"
             },
             {
-                "commandline": "%SystemRoot%\\System32\\cmd.exe",
-                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-                "hidden": false,
-                "name": "Command Prompt"
-            },
-            {
-                "backgroundImage": "C:\\Users\\xptee\\Pictures\\Wallpapers\\flatppuccin_4k_macchiato.png",
+                "backgroundImage": "C:\\Users\\xptee\\Pictures\\Wallpapers\\Wallpapers\\nazuna2.png",
                 "backgroundImageOpacity": 0.1,
-                "backgroundImageStretchMode": "fill",
+                "backgroundImageStretchMode": "uniform",
                 "bellStyle": "none",
-                "colorScheme": "Catppuccin Mocha",
+                "colorScheme": "Campbell",
                 "experimental.retroTerminalEffect": false,
                 "font": 
                 {
-                    "face": "CaskaydiaCove Nerd Font",
-                    "size": 12
+                    "face": "FiraCode Nerd Font",
+                    "size": 13
                 },
                 "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
                 "hidden": false,
@@ -92,6 +92,55 @@
                 "opacity": 100,
                 "scrollbarState": "hidden",
                 "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc",
+                "useAcrylic": false
+            },
+            {
+                "backgroundImage": "C:\\Users\\xptee\\Pictures\\Wallpapers\\VsCode\\as9.png",
+                "backgroundImageOpacity": 0.1,
+                "backgroundImageStretchMode": "uniformToFill",
+                "bellStyle": "none",
+                "colorScheme": "Catppuccin Mocha",
+                "commandline": "ubuntu.exe",
+                "cursorShape": "filledBox",
+                "experimental.retroTerminalEffect": false,
+                "font": 
+                {
+                    "face": "FiraCode Nerd Font",
+                    "size": 11
+                },
+                "guid": "{87cc05fb-648f-4c2a-b988-04d87059b629}",
+                "hidden": false,
+                "icon": "https://assets.ubuntu.com/v1/49a1a858-favicon-32x32.png",
+                "name": "UwUntu",
+                "opacity": 100,
+                "scrollbarState": "hidden",
+                "tabTitle": "UwUntu",
+                "useAcrylic": false
+            },
+            {
+                "altGrAliasing": true,
+                "antialiasingMode": "grayscale",
+                "backgroundImage": "C:\\Users\\xptee\\Pictures\\Wallpapers\\VsCode\\as9.png",
+                "backgroundImageOpacity": 0.1,
+                "backgroundImageStretchMode": "uniformToFill",
+                "closeOnExit": "automatic",
+                "colorScheme": "Catppuccin Mocha",
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "cursorShape": "filledBox",
+                "font": 
+                {
+                    "face": "FiraCode Nerd Font",
+                    "size": 11
+                },
+                "guid": "{745c7a69-dc75-4b43-af70-62da8c150f67}",
+                "hidden": false,
+                "historySize": 9001,
+                "icon": "ms-appx:///ProfileIcons/{61c54bbd-c2c6-5271-96e7-009a87ff44bf}.png",
+                "name": "Puwush",
+                "padding": "8, 8, 8, 8",
+                "snapOnInput": true,
+                "startingDirectory": "%USERPROFILE%",
+                "tabTitle": "Puwush",
                 "useAcrylic": false
             }
         ]
